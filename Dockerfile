@@ -1,4 +1,4 @@
-FROM n8nio/n8n:latest
+FROM docker.n8n.io/n8nio/n8n:1.123.17
 
 ENV N8N_PORT=10000
 ENV N8N_HOST=0.0.0.0
