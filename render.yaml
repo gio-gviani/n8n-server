@@ -12,6 +12,8 @@ services:
         value: "0.0.0.0"
       - key: N8N_PROTOCOL
         value: https
+      - key: N8N_RUNNERS_MODE
+        value: internal
       - key: N8N_RUNNERS_ENABLED
         value: "false"
       - key: N8N_PUSH_BACKEND
